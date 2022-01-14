@@ -1,0 +1,22 @@
+{
+  "name": "18-forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel starter/index.html",
+    "build": "parcel build starter/index.html --dist-dir ./dist"
+  },
+  "author": "Jonas Schmedtmann",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.20.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "sass": "^1.26.10"
+  }
+}
